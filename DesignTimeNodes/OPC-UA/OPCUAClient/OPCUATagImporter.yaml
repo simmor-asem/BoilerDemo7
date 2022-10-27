@@ -1,0 +1,28 @@
+Name: OPCUATagImporter
+Id: g=5c7d0c98baf59057338d8fe46f5407e2
+Type: OPCUAImporter
+OwnerId: ns=2;g=d2dc0de0bc0b4f8594e85f0dd2d70c6e
+Children:
+- Name: FilePath
+  Id: g=e31aab74f8e346a5ce38941fcd8f06e4
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: ""
+- Name: Mode
+  Id: g=d85d96391bc89ec6b65e2cae8398a8fe
+  Type: BaseDataVariableType
+  DataType: FetchProviderModes
+  Value: 1
+- Name: IgnoredPLCItems
+  Id: g=6afbcd600832891e7653daead1ee6837
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Id: g=2fcbf4ae9f0b9d98b4d098352a719380
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
